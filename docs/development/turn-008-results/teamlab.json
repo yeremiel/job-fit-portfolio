@@ -1,0 +1,308 @@
+{
+  "decisionTrace": {
+    "source": "jev-post-hoc-attribution; not a causal record of the original decision",
+    "supporting": [
+      {
+        "requirementId": "L010",
+        "requirement": "Technology environment: Java, Spring and SQL for backend development.",
+        "match": "Strong",
+        "sourceType": "stack"
+      }
+    ],
+    "limiting": [
+      {
+        "requirementId": "L002",
+        "requirement": "Position: Web application and smartphone application engineer",
+        "match": "Weak",
+        "sourceType": "context"
+      },
+      {
+        "requirementId": "L006",
+        "requirement": "Responsibility: Establish overall development direction and architecture.",
+        "match": "Partial",
+        "sourceType": "responsibility"
+      }
+    ],
+    "nonDecisive": [
+      {
+        "requirementId": "L005",
+        "requirement": "Responsibility: Define requirements and design based on customer needs.",
+        "match": "Strong",
+        "sourceType": "responsibility"
+      },
+      {
+        "requirementId": "L007",
+        "requirement": "Responsibility: Improve processing efficiency and generalize reusable functionality.",
+        "match": "Partial",
+        "sourceType": "responsibility"
+      },
+      {
+        "requirementId": "L008",
+        "requirement": "Responsibility: Perform performance tuning.",
+        "match": "Partial",
+        "sourceType": "responsibility"
+      },
+      {
+        "requirementId": "L009",
+        "requirement": "Responsibility: Build CI/CD pipelines.",
+        "match": "Unknown",
+        "sourceType": "responsibility"
+      },
+      {
+        "requirementId": "L011",
+        "requirement": "Technology environment: Frontend and mobile technologies include React, Vue and Swift; the technology listing does not establish that all are mandatory together.",
+        "match": "Partial",
+        "sourceType": "stack"
+      }
+    ]
+  },
+  "overallMatch": "Weak",
+  "overallReasoning": "Selected overall criterion: Related evidence exists but core role or major required-level gaps dominate; overlapping skills cannot compensate. Assessments: L002=Weak (context); L005=Strong (responsibility); L006=Partial (responsibility); L007=Partial (responsibility); L008=Partial (responsibility); L009=Unknown (responsibility); L010=Strong (stack); L011=Partial (stack)",
+  "requirements": [
+    {
+      "id": "L002",
+      "requirement": "Position: Web application and smartphone application engineer",
+      "category": "context",
+      "match": "Weak",
+      "supportingEvidence": [
+        {
+          "id": "E1",
+          "text": "Approximately 16 years of software/backend development, centered on professional Java, Spring and Spring Boot. REST API design and implementation. Version-specific durations are not documented.",
+          "relation": "transferable"
+        },
+        {
+          "id": "E2",
+          "text": "RDB design and SQL/database processing improvements. DB2, Oracle, MySQL and MariaDB experience. Business systems with complex business logic.",
+          "relation": "transferable"
+        },
+        {
+          "id": "E3",
+          "text": "Requirements analysis, basic and detailed design, API/database design, legacy analysis and improvement, common module design and code review. Development across backend, frontend and database.",
+          "relation": "limited"
+        },
+        {
+          "id": "E4",
+          "text": "Tech Lead, Development Lead, PM and PL experience. Team building, OJT, development standards, code review and technical support. Experience in organizations/teams up to approximately 12 people. Customer requirements and specification coordination. The profile does not specify frontend-specialist leadership.",
+          "relation": "transferable"
+        },
+        {
+          "id": "E5",
+          "text": "Experience with TypeScript, Node.js, NestJS, Angular, Redis, Netty, C++ and TCP/IP. Individual durations and depth are not documented.",
+          "relation": "limited"
+        },
+        {
+          "id": "E6",
+          "text": "Domain experience in ERP, accounting, personal-information database encryption, ship monitoring, logistics/control systems and public-sector web/business systems.",
+          "relation": "transferable"
+        },
+        {
+          "id": "E7",
+          "text": "Basic AWS experience. Large-scale cloud-native production architecture and operations experience is not clearly documented.",
+          "relation": "limited"
+        }
+      ],
+      "missingEvidence": [
+        "Not established by the profile: core role experience for: Position: Web application and smartphone application engineer"
+      ],
+      "unknowns": [
+        "Whether the candidate has core role experience beyond the documented evidence."
+      ],
+      "reasoning": "Selected rationale: Adjacent evidence exists but does not establish the core role experience; keyword overlap is insufficient."
+    },
+    {
+      "id": "L005",
+      "requirement": "Responsibility: Define requirements and design based on customer needs.",
+      "category": "responsibility",
+      "match": "Strong",
+      "supportingEvidence": [
+        {
+          "id": "E3",
+          "text": "Requirements analysis, basic and detailed design, API/database design, legacy analysis and improvement, common module design and code review. Development across backend, frontend and database.",
+          "relation": "direct"
+        },
+        {
+          "id": "E4",
+          "text": "Tech Lead, Development Lead, PM and PL experience. Team building, OJT, development standards, code review and technical support. Experience in organizations/teams up to approximately 12 people. Customer requirements and specification coordination. The profile does not specify frontend-specialist leadership.",
+          "relation": "direct"
+        }
+      ],
+      "missingEvidence": [],
+      "unknowns": [],
+      "reasoning": "Selected rationale: Direct documented evidence supports the requirement with no material role/context gap."
+    },
+    {
+      "id": "L006",
+      "requirement": "Responsibility: Establish overall development direction and architecture.",
+      "category": "responsibility",
+      "match": "Partial",
+      "supportingEvidence": [
+        {
+          "id": "E1",
+          "text": "Approximately 16 years of software/backend development, centered on professional Java, Spring and Spring Boot. REST API design and implementation. Version-specific durations are not documented.",
+          "relation": "limited"
+        },
+        {
+          "id": "E2",
+          "text": "RDB design and SQL/database processing improvements. DB2, Oracle, MySQL and MariaDB experience. Business systems with complex business logic.",
+          "relation": "limited"
+        },
+        {
+          "id": "E3",
+          "text": "Requirements analysis, basic and detailed design, API/database design, legacy analysis and improvement, common module design and code review. Development across backend, frontend and database.",
+          "relation": "limited"
+        },
+        {
+          "id": "E4",
+          "text": "Tech Lead, Development Lead, PM and PL experience. Team building, OJT, development standards, code review and technical support. Experience in organizations/teams up to approximately 12 people. Customer requirements and specification coordination. The profile does not specify frontend-specialist leadership.",
+          "relation": "limited"
+        }
+      ],
+      "missingEvidence": [
+        "Not established by the profile: full scope for: Responsibility: Establish overall development direction and architecture."
+      ],
+      "unknowns": [
+        "Whether the candidate has full scope beyond the documented evidence."
+      ],
+      "reasoning": "Selected rationale: Related evidence is sufficient but the full scope is not documented."
+    },
+    {
+      "id": "L007",
+      "requirement": "Responsibility: Improve processing efficiency and generalize reusable functionality.",
+      "category": "responsibility",
+      "match": "Partial",
+      "supportingEvidence": [
+        {
+          "id": "E1",
+          "text": "Approximately 16 years of software/backend development, centered on professional Java, Spring and Spring Boot. REST API design and implementation. Version-specific durations are not documented.",
+          "relation": "limited"
+        },
+        {
+          "id": "E2",
+          "text": "RDB design and SQL/database processing improvements. DB2, Oracle, MySQL and MariaDB experience. Business systems with complex business logic.",
+          "relation": "limited"
+        },
+        {
+          "id": "E3",
+          "text": "Requirements analysis, basic and detailed design, API/database design, legacy analysis and improvement, common module design and code review. Development across backend, frontend and database.",
+          "relation": "limited"
+        },
+        {
+          "id": "E4",
+          "text": "Tech Lead, Development Lead, PM and PL experience. Team building, OJT, development standards, code review and technical support. Experience in organizations/teams up to approximately 12 people. Customer requirements and specification coordination. The profile does not specify frontend-specialist leadership.",
+          "relation": "limited"
+        }
+      ],
+      "missingEvidence": [
+        "Not established by the profile: requested depth for: Responsibility: Improve processing efficiency and generalize reusable functionality."
+      ],
+      "unknowns": [
+        "Whether the candidate has requested depth beyond the documented evidence."
+      ],
+      "reasoning": "Selected rationale: Related evidence is sufficient but the requested depth is not documented."
+    },
+    {
+      "id": "L008",
+      "requirement": "Responsibility: Perform performance tuning.",
+      "category": "responsibility",
+      "match": "Partial",
+      "supportingEvidence": [
+        {
+          "id": "E1",
+          "text": "Approximately 16 years of software/backend development, centered on professional Java, Spring and Spring Boot. REST API design and implementation. Version-specific durations are not documented.",
+          "relation": "limited"
+        },
+        {
+          "id": "E2",
+          "text": "RDB design and SQL/database processing improvements. DB2, Oracle, MySQL and MariaDB experience. Business systems with complex business logic.",
+          "relation": "limited"
+        }
+      ],
+      "missingEvidence": [
+        "Not established by the profile: requested depth for: Responsibility: Perform performance tuning."
+      ],
+      "unknowns": [
+        "Whether the candidate has requested depth beyond the documented evidence."
+      ],
+      "reasoning": "Selected rationale: Related evidence is sufficient but the requested depth is not documented."
+    },
+    {
+      "id": "L009",
+      "requirement": "Responsibility: Build CI/CD pipelines.",
+      "category": "responsibility",
+      "match": "Unknown",
+      "supportingEvidence": [],
+      "missingEvidence": [
+        "Not established by the profile: sufficient relevant evidence for: Responsibility: Build CI/CD pipelines."
+      ],
+      "unknowns": [
+        "Whether the candidate has sufficient relevant evidence beyond the documented evidence."
+      ],
+      "reasoning": "No supporting evidence was linked by the evaluator. The application leaves the match Unknown; this does not mean no experience."
+    },
+    {
+      "id": "L010",
+      "requirement": "Technology environment: Java, Spring and SQL for backend development.",
+      "category": "stack",
+      "match": "Strong",
+      "supportingEvidence": [
+        {
+          "id": "E1",
+          "text": "Approximately 16 years of software/backend development, centered on professional Java, Spring and Spring Boot. REST API design and implementation. Version-specific durations are not documented.",
+          "relation": "direct"
+        },
+        {
+          "id": "E2",
+          "text": "RDB design and SQL/database processing improvements. DB2, Oracle, MySQL and MariaDB experience. Business systems with complex business logic.",
+          "relation": "limited"
+        },
+        {
+          "id": "E3",
+          "text": "Requirements analysis, basic and detailed design, API/database design, legacy analysis and improvement, common module design and code review. Development across backend, frontend and database.",
+          "relation": "limited"
+        }
+      ],
+      "missingEvidence": [],
+      "unknowns": [],
+      "reasoning": "Selected rationale: Direct documented evidence supports the requirement with no material role/context gap."
+    },
+    {
+      "id": "L011",
+      "requirement": "Technology environment: Frontend and mobile technologies include React, Vue and Swift; the technology listing does not establish that all are mandatory together.",
+      "category": "stack",
+      "match": "Partial",
+      "supportingEvidence": [
+        {
+          "id": "E3",
+          "text": "Requirements analysis, basic and detailed design, API/database design, legacy analysis and improvement, common module design and code review. Development across backend, frontend and database.",
+          "relation": "limited"
+        }
+      ],
+      "missingEvidence": [
+        "Not established by the profile: exact technology experience for: Technology environment: Frontend and mobile technologies include React, Vue and Swift; the technology listing does not establish that all are mandatory together."
+      ],
+      "unknowns": [
+        "Whether the candidate has exact technology experience beyond the documented evidence."
+      ],
+      "reasoning": "Selected rationale: Transferable engineering experience exists but the exact technology experience is not established."
+    }
+  ],
+  "summary": {
+    "strong": [
+      "L005",
+      "L010"
+    ],
+    "partial": [
+      "L006",
+      "L007",
+      "L008",
+      "L011"
+    ],
+    "weak": [
+      "L002"
+    ],
+    "unknown": [
+      "L009"
+    ]
+  },
+  "explanationSource": "application-rendered rationale from provider choices or absence of linked evidence; evidence copied from profile"
+}

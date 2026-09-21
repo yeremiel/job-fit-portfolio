@@ -1,0 +1,516 @@
+{
+  "decisionTrace": {
+    "source": "jev-post-hoc-attribution; not a causal record of the original decision",
+    "supporting": [
+      {
+        "requirementId": "L002",
+        "requirement": "Position: Server-side engineer",
+        "match": "Strong",
+        "sourceType": "context"
+      },
+      {
+        "requirementId": "L007",
+        "requirement": "Responsibility: Design and develop backend APIs.",
+        "match": "Strong",
+        "sourceType": "responsibility"
+      },
+      {
+        "requirementId": "L011",
+        "requirement": "Technology environment: Java and Spring Boot.",
+        "match": "Strong",
+        "sourceType": "stack"
+      }
+    ],
+    "limiting": [
+      {
+        "requirementId": "L005",
+        "requirement": "Business context: In-house package development for real-estate fund management companies.",
+        "match": "Partial",
+        "sourceType": "context"
+      },
+      {
+        "requirementId": "L006",
+        "requirement": "Required: At least one year of development experience with Java 8 or later.",
+        "match": "Partial",
+        "sourceType": "required"
+      }
+    ],
+    "nonDecisive": [
+      {
+        "requirementId": "L008",
+        "requirement": "Responsibility: Operate backend APIs.",
+        "match": "Partial",
+        "sourceType": "responsibility"
+      },
+      {
+        "requirementId": "L009",
+        "requirement": "Responsibility: Enhance the package and fix defects.",
+        "match": "Partial",
+        "sourceType": "responsibility"
+      },
+      {
+        "requirementId": "L010",
+        "requirement": "Responsibility: Set up and customize the package for new customers.",
+        "match": "Partial",
+        "sourceType": "responsibility"
+      },
+      {
+        "requirementId": "L012",
+        "requirement": "Technology environment: Azure App Service on Linux/Docker and Azure SQL Database.",
+        "match": "Partial",
+        "sourceType": "stack"
+      },
+      {
+        "requirementId": "L013",
+        "requirement": "Technology environment: Git and Azure DevOps for CI/CD.",
+        "match": "Unknown",
+        "sourceType": "stack"
+      },
+      {
+        "requirementId": "L014",
+        "requirement": "Preferred: Hands-on Azure operation/administration experience.",
+        "match": "Unknown",
+        "sourceType": "preferred"
+      },
+      {
+        "requirementId": "L015",
+        "requirement": "Preferred: Accounting knowledge comparable to bookkeeping level 3.",
+        "match": "Partial",
+        "sourceType": "preferred"
+      },
+      {
+        "requirementId": "L016",
+        "requirement": "Preferred: Program with the customer's usability in mind.",
+        "match": "Unknown",
+        "sourceType": "preferred"
+      },
+      {
+        "requirementId": "L017",
+        "requirement": "Preferred: Willingness to understand the customer's business and work proactively.",
+        "match": "Unknown",
+        "sourceType": "preferred"
+      },
+      {
+        "requirementId": "L018",
+        "requirement": "Optional adjacent web development: Angular, Angular Material and TypeScript.",
+        "match": "Partial",
+        "sourceType": "preferred"
+      }
+    ]
+  },
+  "overallMatch": "Partial",
+  "overallReasoning": "Selected overall criterion: Substantial related/transferable capabilities exist but some important scope/depth/technology/domain/operational gaps remain. Assessments: L002=Strong (context); L005=Partial (context); L006=Partial (required); L007=Strong (responsibility); L008=Partial (responsibility); L009=Partial (responsibility); L010=Partial (responsibility); L011=Strong (stack); L012=Partial (stack); L013=Unknown (stack); L014=Unknown (preferred); L015=Partial (preferred); L016=Unknown (preferred); L017=Unknown (preferred); L018=Partial (preferred)",
+  "requirements": [
+    {
+      "id": "L002",
+      "requirement": "Position: Server-side engineer",
+      "category": "context",
+      "match": "Strong",
+      "supportingEvidence": [
+        {
+          "id": "E1",
+          "text": "Approximately 16 years of software/backend development, centered on professional Java, Spring and Spring Boot. REST API design and implementation. Version-specific durations are not documented.",
+          "relation": "direct"
+        },
+        {
+          "id": "E2",
+          "text": "RDB design and SQL/database processing improvements. DB2, Oracle, MySQL and MariaDB experience. Business systems with complex business logic.",
+          "relation": "transferable"
+        },
+        {
+          "id": "E3",
+          "text": "Requirements analysis, basic and detailed design, API/database design, legacy analysis and improvement, common module design and code review. Development across backend, frontend and database.",
+          "relation": "direct"
+        },
+        {
+          "id": "E4",
+          "text": "Tech Lead, Development Lead, PM and PL experience. Team building, OJT, development standards, code review and technical support. Experience in organizations/teams up to approximately 12 people. Customer requirements and specification coordination. The profile does not specify frontend-specialist leadership.",
+          "relation": "limited"
+        },
+        {
+          "id": "E5",
+          "text": "Experience with TypeScript, Node.js, NestJS, Angular, Redis, Netty, C++ and TCP/IP. Individual durations and depth are not documented.",
+          "relation": "limited"
+        }
+      ],
+      "missingEvidence": [],
+      "unknowns": [],
+      "reasoning": "Selected rationale: Direct documented evidence supports the requirement with no material role/context gap."
+    },
+    {
+      "id": "L005",
+      "requirement": "Business context: In-house package development for real-estate fund management companies.",
+      "category": "context",
+      "match": "Partial",
+      "supportingEvidence": [
+        {
+          "id": "E2",
+          "text": "RDB design and SQL/database processing improvements. DB2, Oracle, MySQL and MariaDB experience. Business systems with complex business logic.",
+          "relation": "transferable"
+        },
+        {
+          "id": "E3",
+          "text": "Requirements analysis, basic and detailed design, API/database design, legacy analysis and improvement, common module design and code review. Development across backend, frontend and database.",
+          "relation": "transferable"
+        },
+        {
+          "id": "E6",
+          "text": "Domain experience in ERP, accounting, personal-information database encryption, ship monitoring, logistics/control systems and public-sector web/business systems.",
+          "relation": "limited"
+        }
+      ],
+      "missingEvidence": [
+        "Not established by the profile: specific domain experience for: Business context: In-house package development for real-estate fund management companies."
+      ],
+      "unknowns": [
+        "Whether the candidate has specific domain experience beyond the documented evidence."
+      ],
+      "reasoning": "Selected rationale: Transferable engineering experience exists but the specific domain experience is not established."
+    },
+    {
+      "id": "L006",
+      "requirement": "Required: At least one year of development experience with Java 8 or later.",
+      "category": "required",
+      "match": "Partial",
+      "supportingEvidence": [
+        {
+          "id": "E1",
+          "text": "Approximately 16 years of software/backend development, centered on professional Java, Spring and Spring Boot. REST API design and implementation. Version-specific durations are not documented.",
+          "relation": "limited"
+        }
+      ],
+      "missingEvidence": [
+        "Not established by the profile: specified version or duration for: Required: At least one year of development experience with Java 8 or later."
+      ],
+      "unknowns": [
+        "Whether the candidate has specified version or duration beyond the documented evidence."
+      ],
+      "reasoning": "Selected rationale: Related experience exists but the specified version or duration is not documented."
+    },
+    {
+      "id": "L007",
+      "requirement": "Responsibility: Design and develop backend APIs.",
+      "category": "responsibility",
+      "match": "Strong",
+      "supportingEvidence": [
+        {
+          "id": "E1",
+          "text": "Approximately 16 years of software/backend development, centered on professional Java, Spring and Spring Boot. REST API design and implementation. Version-specific durations are not documented.",
+          "relation": "direct"
+        },
+        {
+          "id": "E2",
+          "text": "RDB design and SQL/database processing improvements. DB2, Oracle, MySQL and MariaDB experience. Business systems with complex business logic.",
+          "relation": "limited"
+        },
+        {
+          "id": "E3",
+          "text": "Requirements analysis, basic and detailed design, API/database design, legacy analysis and improvement, common module design and code review. Development across backend, frontend and database.",
+          "relation": "direct"
+        },
+        {
+          "id": "E5",
+          "text": "Experience with TypeScript, Node.js, NestJS, Angular, Redis, Netty, C++ and TCP/IP. Individual durations and depth are not documented.",
+          "relation": "limited"
+        }
+      ],
+      "missingEvidence": [],
+      "unknowns": [],
+      "reasoning": "Selected rationale: Direct documented evidence supports the requirement with no material role/context gap."
+    },
+    {
+      "id": "L008",
+      "requirement": "Responsibility: Operate backend APIs.",
+      "category": "responsibility",
+      "match": "Partial",
+      "supportingEvidence": [
+        {
+          "id": "E1",
+          "text": "Approximately 16 years of software/backend development, centered on professional Java, Spring and Spring Boot. REST API design and implementation. Version-specific durations are not documented.",
+          "relation": "limited"
+        },
+        {
+          "id": "E3",
+          "text": "Requirements analysis, basic and detailed design, API/database design, legacy analysis and improvement, common module design and code review. Development across backend, frontend and database.",
+          "relation": "limited"
+        }
+      ],
+      "missingEvidence": [
+        "Not established by the profile: operational context for: Responsibility: Operate backend APIs."
+      ],
+      "unknowns": [
+        "Whether the candidate has operational context beyond the documented evidence."
+      ],
+      "reasoning": "Selected rationale: Related evidence exists but the required operational context is not established."
+    },
+    {
+      "id": "L009",
+      "requirement": "Responsibility: Enhance the package and fix defects.",
+      "category": "responsibility",
+      "match": "Partial",
+      "supportingEvidence": [
+        {
+          "id": "E1",
+          "text": "Approximately 16 years of software/backend development, centered on professional Java, Spring and Spring Boot. REST API design and implementation. Version-specific durations are not documented.",
+          "relation": "limited"
+        },
+        {
+          "id": "E2",
+          "text": "RDB design and SQL/database processing improvements. DB2, Oracle, MySQL and MariaDB experience. Business systems with complex business logic.",
+          "relation": "limited"
+        },
+        {
+          "id": "E3",
+          "text": "Requirements analysis, basic and detailed design, API/database design, legacy analysis and improvement, common module design and code review. Development across backend, frontend and database.",
+          "relation": "limited"
+        },
+        {
+          "id": "E4",
+          "text": "Tech Lead, Development Lead, PM and PL experience. Team building, OJT, development standards, code review and technical support. Experience in organizations/teams up to approximately 12 people. Customer requirements and specification coordination. The profile does not specify frontend-specialist leadership.",
+          "relation": "limited"
+        }
+      ],
+      "missingEvidence": [
+        "Not established by the profile: full scope for: Responsibility: Enhance the package and fix defects."
+      ],
+      "unknowns": [
+        "Whether the candidate has full scope beyond the documented evidence."
+      ],
+      "reasoning": "Selected rationale: Related evidence is sufficient but the full scope is not documented."
+    },
+    {
+      "id": "L010",
+      "requirement": "Responsibility: Set up and customize the package for new customers.",
+      "category": "responsibility",
+      "match": "Partial",
+      "supportingEvidence": [
+        {
+          "id": "E1",
+          "text": "Approximately 16 years of software/backend development, centered on professional Java, Spring and Spring Boot. REST API design and implementation. Version-specific durations are not documented.",
+          "relation": "limited"
+        },
+        {
+          "id": "E2",
+          "text": "RDB design and SQL/database processing improvements. DB2, Oracle, MySQL and MariaDB experience. Business systems with complex business logic.",
+          "relation": "limited"
+        },
+        {
+          "id": "E3",
+          "text": "Requirements analysis, basic and detailed design, API/database design, legacy analysis and improvement, common module design and code review. Development across backend, frontend and database.",
+          "relation": "limited"
+        },
+        {
+          "id": "E4",
+          "text": "Tech Lead, Development Lead, PM and PL experience. Team building, OJT, development standards, code review and technical support. Experience in organizations/teams up to approximately 12 people. Customer requirements and specification coordination. The profile does not specify frontend-specialist leadership.",
+          "relation": "limited"
+        },
+        {
+          "id": "E6",
+          "text": "Domain experience in ERP, accounting, personal-information database encryption, ship monitoring, logistics/control systems and public-sector web/business systems.",
+          "relation": "limited"
+        }
+      ],
+      "missingEvidence": [
+        "Not established by the profile: full scope for: Responsibility: Set up and customize the package for new customers."
+      ],
+      "unknowns": [
+        "Whether the candidate has full scope beyond the documented evidence."
+      ],
+      "reasoning": "Selected rationale: Related evidence is sufficient but the full scope is not documented."
+    },
+    {
+      "id": "L011",
+      "requirement": "Technology environment: Java and Spring Boot.",
+      "category": "stack",
+      "match": "Strong",
+      "supportingEvidence": [
+        {
+          "id": "E1",
+          "text": "Approximately 16 years of software/backend development, centered on professional Java, Spring and Spring Boot. REST API design and implementation. Version-specific durations are not documented.",
+          "relation": "direct"
+        },
+        {
+          "id": "E3",
+          "text": "Requirements analysis, basic and detailed design, API/database design, legacy analysis and improvement, common module design and code review. Development across backend, frontend and database.",
+          "relation": "limited"
+        }
+      ],
+      "missingEvidence": [],
+      "unknowns": [],
+      "reasoning": "Selected rationale: Direct documented evidence supports the requirement with no material role/context gap."
+    },
+    {
+      "id": "L012",
+      "requirement": "Technology environment: Azure App Service on Linux/Docker and Azure SQL Database.",
+      "category": "stack",
+      "match": "Partial",
+      "supportingEvidence": [
+        {
+          "id": "E2",
+          "text": "RDB design and SQL/database processing improvements. DB2, Oracle, MySQL and MariaDB experience. Business systems with complex business logic.",
+          "relation": "transferable"
+        }
+      ],
+      "missingEvidence": [
+        "Not established by the profile: exact technology experience for: Technology environment: Azure App Service on Linux/Docker and Azure SQL Database."
+      ],
+      "unknowns": [
+        "Whether the candidate has exact technology experience beyond the documented evidence."
+      ],
+      "reasoning": "Selected rationale: Transferable engineering experience exists but the exact technology experience is not established."
+    },
+    {
+      "id": "L013",
+      "requirement": "Technology environment: Git and Azure DevOps for CI/CD.",
+      "category": "stack",
+      "match": "Unknown",
+      "supportingEvidence": [],
+      "missingEvidence": [
+        "Not established by the profile: sufficient relevant evidence for: Technology environment: Git and Azure DevOps for CI/CD."
+      ],
+      "unknowns": [
+        "Whether the candidate has sufficient relevant evidence beyond the documented evidence."
+      ],
+      "reasoning": "No supporting evidence was linked by the evaluator. The application leaves the match Unknown; this does not mean no experience."
+    },
+    {
+      "id": "L014",
+      "requirement": "Preferred: Hands-on Azure operation/administration experience.",
+      "category": "preferred",
+      "match": "Unknown",
+      "supportingEvidence": [],
+      "missingEvidence": [
+        "Not established by the profile: sufficient relevant evidence for: Preferred: Hands-on Azure operation/administration experience."
+      ],
+      "unknowns": [
+        "Whether the candidate has sufficient relevant evidence beyond the documented evidence."
+      ],
+      "reasoning": "No supporting evidence was linked by the evaluator. The application leaves the match Unknown; this does not mean no experience."
+    },
+    {
+      "id": "L015",
+      "requirement": "Preferred: Accounting knowledge comparable to bookkeeping level 3.",
+      "category": "preferred",
+      "match": "Partial",
+      "supportingEvidence": [
+        {
+          "id": "E6",
+          "text": "Domain experience in ERP, accounting, personal-information database encryption, ship monitoring, logistics/control systems and public-sector web/business systems.",
+          "relation": "limited"
+        }
+      ],
+      "missingEvidence": [
+        "Not established by the profile: requested depth for: Preferred: Accounting knowledge comparable to bookkeeping level 3."
+      ],
+      "unknowns": [
+        "Whether the candidate has requested depth beyond the documented evidence."
+      ],
+      "reasoning": "Selected rationale: Related evidence is sufficient but the requested depth is not documented."
+    },
+    {
+      "id": "L016",
+      "requirement": "Preferred: Program with the customer's usability in mind.",
+      "category": "preferred",
+      "match": "Unknown",
+      "supportingEvidence": [
+        {
+          "id": "E3",
+          "text": "Requirements analysis, basic and detailed design, API/database design, legacy analysis and improvement, common module design and code review. Development across backend, frontend and database.",
+          "relation": "limited"
+        },
+        {
+          "id": "E4",
+          "text": "Tech Lead, Development Lead, PM and PL experience. Team building, OJT, development standards, code review and technical support. Experience in organizations/teams up to approximately 12 people. Customer requirements and specification coordination. The profile does not specify frontend-specialist leadership.",
+          "relation": "limited"
+        }
+      ],
+      "missingEvidence": [
+        "Not established by the profile: sufficient relevant evidence for: Preferred: Program with the customer's usability in mind."
+      ],
+      "unknowns": [
+        "Whether the candidate has sufficient relevant evidence beyond the documented evidence."
+      ],
+      "reasoning": "Selected rationale: The profile contains insufficient relevant evidence to judge this requirement; this does not mean no experience."
+    },
+    {
+      "id": "L017",
+      "requirement": "Preferred: Willingness to understand the customer's business and work proactively.",
+      "category": "preferred",
+      "match": "Unknown",
+      "supportingEvidence": [
+        {
+          "id": "E3",
+          "text": "Requirements analysis, basic and detailed design, API/database design, legacy analysis and improvement, common module design and code review. Development across backend, frontend and database.",
+          "relation": "limited"
+        },
+        {
+          "id": "E4",
+          "text": "Tech Lead, Development Lead, PM and PL experience. Team building, OJT, development standards, code review and technical support. Experience in organizations/teams up to approximately 12 people. Customer requirements and specification coordination. The profile does not specify frontend-specialist leadership.",
+          "relation": "limited"
+        },
+        {
+          "id": "E6",
+          "text": "Domain experience in ERP, accounting, personal-information database encryption, ship monitoring, logistics/control systems and public-sector web/business systems.",
+          "relation": "limited"
+        }
+      ],
+      "missingEvidence": [
+        "Not established by the profile: sufficient relevant evidence for: Preferred: Willingness to understand the customer's business and work proactively."
+      ],
+      "unknowns": [
+        "Whether the candidate has sufficient relevant evidence beyond the documented evidence."
+      ],
+      "reasoning": "Selected rationale: The profile contains insufficient relevant evidence to judge this requirement; this does not mean no experience."
+    },
+    {
+      "id": "L018",
+      "requirement": "Optional adjacent web development: Angular, Angular Material and TypeScript.",
+      "category": "preferred",
+      "match": "Partial",
+      "supportingEvidence": [
+        {
+          "id": "E3",
+          "text": "Requirements analysis, basic and detailed design, API/database design, legacy analysis and improvement, common module design and code review. Development across backend, frontend and database.",
+          "relation": "limited"
+        },
+        {
+          "id": "E5",
+          "text": "Experience with TypeScript, Node.js, NestJS, Angular, Redis, Netty, C++ and TCP/IP. Individual durations and depth are not documented.",
+          "relation": "limited"
+        }
+      ],
+      "missingEvidence": [
+        "Not established by the profile: requested depth for: Optional adjacent web development: Angular, Angular Material and TypeScript."
+      ],
+      "unknowns": [
+        "Whether the candidate has requested depth beyond the documented evidence."
+      ],
+      "reasoning": "Selected rationale: Related evidence is sufficient but the requested depth is not documented."
+    }
+  ],
+  "summary": {
+    "strong": [
+      "L002",
+      "L007",
+      "L011"
+    ],
+    "partial": [
+      "L005",
+      "L006",
+      "L008",
+      "L009",
+      "L010",
+      "L012",
+      "L015",
+      "L018"
+    ],
+    "weak": [],
+    "unknown": [
+      "L013",
+      "L014",
+      "L016",
+      "L017"
+    ]
+  },
+  "explanationSource": "application-rendered rationale from provider choices or absence of linked evidence; evidence copied from profile"
+}

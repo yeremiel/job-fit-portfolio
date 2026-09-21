@@ -1,0 +1,62 @@
+{
+  "evaluationDate": "2026-09-21",
+  "frozenImplementationFingerprint": "845acdfb12ebb507598e88b9fd60ce1759525750c765609a3e1dd3ff2968f425",
+  "profileSHA256": "cae86ad4906124b0eee8283c05bc74d439543f75d9b2e7496f8d6895e32f09cd",
+  "artifactType": "CLI domain JSON; not raw provider responses",
+  "samples": [
+    {
+      "sample": "bluememe",
+      "input": "samples/bluememe.txt",
+      "inputSHA256": "613afa1eb7dde503a70d2f187e62585c0e82adaa7c318dbe075a85ac76d5fbfb",
+      "result": "bluememe.json",
+      "resultSHA256": "b9d30cc9497cc95df914f1385856308fe93874096d9d3a6fd0ae6d69452ca92c",
+      "origin": "Turn 008 single CLI run, exit 0",
+      "inputProvenance": "Turn 002 reviewed JD summary; paraphrased sample, not full source snapshot"
+    },
+    {
+      "sample": "proptech-plus",
+      "input": "samples/proptech-plus.txt",
+      "inputSHA256": "97068536167d4b21fc9d4f53bc92deedaee922cc98a08c7275e774049829fd19",
+      "result": "proptech-plus.json",
+      "resultSHA256": "4989da41cf971aa488b50cae826eded0f6240e26364f2ac835dab2cbcf397f2e",
+      "origin": "Turn 006 artifact reused byte-for-byte; no Turn 008 call",
+      "inputProvenance": "Turn 002 reviewed JD summary; paraphrased sample, not full source snapshot"
+    },
+    {
+      "sample": "pia-tech-lab",
+      "input": "samples/pia-tech-lab.txt",
+      "inputSHA256": "6f0a60acf485293a41f7382c9437bf8c09790e87f6444ca30d5103d8cb9a22a2",
+      "result": "pia-tech-lab.json",
+      "resultSHA256": "9d897199f9fb6d3953032f3a2727e976cc3adce723a3e5b79c42d991907c4a2b",
+      "origin": "Turn 008 single CLI run, exit 0",
+      "inputProvenance": "Turn 002 reviewed JD summary; paraphrased sample, not full source snapshot"
+    },
+    {
+      "sample": "core",
+      "input": "samples/core.txt",
+      "inputSHA256": "8d5e87005a3f9acbe294956f9807c802f8083224b57bed47fa32b9b507aff2cb",
+      "result": "core.json",
+      "resultSHA256": "8c11b73216aa45c1f99688837d19d8d07bf9a9fffdc2c1adbfa9b3b71add8a48",
+      "origin": "Turn 008 single CLI run, exit 0",
+      "inputProvenance": "Turn 002 reviewed JD summary; paraphrased sample, not full source snapshot"
+    },
+    {
+      "sample": "teamlab",
+      "input": "samples/teamlab.txt",
+      "inputSHA256": "953411bc88219b6e6d3246e196503653e8d0139bb4739f07f8d7b9ba4a9935b9",
+      "result": "teamlab.json",
+      "resultSHA256": "b5dcd18095fe2df3f92dd0ad12afe9fc60d38aa749aa6e15f875f7dcf9532003",
+      "origin": "Turn 008 single CLI run, exit 0",
+      "inputProvenance": "Turn 002 reviewed JD summary; paraphrased sample, not full source snapshot"
+    },
+    {
+      "sample": "nitori",
+      "input": "samples/nitori.txt",
+      "inputSHA256": "817dc047c5d33129a9f09df8a25de4da2ada6fac8d87e5d755f7bf12f8fff758",
+      "result": "nitori.json",
+      "resultSHA256": "276fe6447563ed305dee55392811a4be2a730236a384a660d8b055c4aa5dc49c",
+      "origin": "Turn 008 single CLI run, exit 0",
+      "inputProvenance": "Turn 002 reviewed JD summary; paraphrased sample, not full source snapshot"
+    }
+  ]
+}

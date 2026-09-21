@@ -1,0 +1,11 @@
+Company: CORE
+Position: Systems engineer for web and business systems in Kyushu (Fukuoka), leader recruitment track
+Source: https://www.core.co.jp/recruitment/career/kc1
+Reviewed date: 2026-09-21 (source review in Turn 002; paraphrased from the recorded JD summary, not the full JD)
+Required: Development experience from basic design onward.
+Required: Communicate with customers to identify their problems.
+Preferred: Upstream process experience and coordination of customer issues.
+Responsibility: Act as a sub-leader, with project leader work possible if desired.
+Technology environment: Java and Oracle are examples of the development environment.
+Business context: Public-sector and energy business systems.
+Responsibility: Work across requirements, system testing, introduction and maintenance.

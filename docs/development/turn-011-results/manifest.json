@@ -1,0 +1,87 @@
+{
+  "date": "2026-09-21",
+  "head": "8f9ec89aca2e1026eaa61a4bc5c9097ff0088b82",
+  "baseline": "Turn 010 implementation",
+  "manifestFormat": "SHA-256, two spaces, relative path, LF; sorted by path; code/tests/policy/go.mod/profile/all six samples",
+  "baselineFingerprint": "4993033cceb4ec744b174e2d349b3e571bf2c12ffa95c87998b3e7b19174165c",
+  "files": {
+    "cmd/job-fit/main.go": "a9fa59af93beefbed37a583426492d8ba5bb5722d2a3bd2bb7bd7ed954073c33",
+    "cmd/job-fit/main_test.go": "531b2f1cf8f27eb94f052b0870cc017ba7da96fa414237b05c27212a22610eb2",
+    "data/profile.json": "cae86ad4906124b0eee8283c05bc74d439543f75d9b2e7496f8d6895e32f09cd",
+    "go.mod": "e6649950e11bd25f99d7b140ca63aff307ec422553d0da338ac97d0501a679d3",
+    "internal/evaluator/evaluator.go": "4062a521ba7b63dcfbfde8460f140dd249fe742b4be5daa033962bc1020bf105",
+    "internal/evaluator/input.go": "4c068184e2754df4a1b115a75251e7338ea986553822b2733e255e9447b035c7",
+    "internal/evaluator/input_test.go": "0a7e244674aa57433618ef78bfba49005bfb65a992fed1f7ea997f5ac7a6bd62",
+    "internal/evaluator/instructions.md": "f919adc667e09c3bfd1d7f35e94e3b04b0e67ed9ffdb84ca46785e997cc0ee2c",
+    "internal/evaluator/trace.go": "337aabaaa3c751e84fdbfcb059e351018dda296367fd96b08c92f229e50daca7",
+    "internal/evaluator/trace_contract_test.go": "a20b43ac513bc52a2d0425f84883a5ca9b6dacd87f2f89e5d452e8e8ef5d0985",
+    "internal/evaluator/trace_flow_test.go": "bbb3ee6341259f4e3fbc9712c18bed50ce8a46f3c1f8523a902628907aeb5b0d",
+    "internal/evaluator/trace_test.go": "2b4c372ec3f66e044a5658f746505378a188ba591888ddf6527048c02f2fba90",
+    "internal/evaluator/types.go": "5cfaece22501f8d5ab8f77cef5c5efb0da41c88c4e4dc10b9957d961b76daa6f",
+    "internal/jev/client.go": "7c4aeb0838b0cdc9ee66e614e75dcc1a645f605be19db308ab17544aec03201f",
+    "internal/jev/client_test.go": "4fd181ce7fb4f268e40a2d5ee3ec0c0b1d81057c6201802c7eadb1c9f2ba0b13",
+    "internal/jev/contract_regression_test.go": "5083e68d2064af3fa086a44b5164de815ad5a1d7c4402bdcce1a9b1f35694b1d",
+    "internal/jev/mapper.go": "6b3ad5b332c44a0ff252231e7e2a72e25ea7b40706f90cdc46b9b2c64ece8136",
+    "internal/jev/pipeline_test.go": "aab4249fdd1b3c2f9236f0178a35a184b223d4c05f2e6d2f82bfc608334b3f1e",
+    "internal/jev/qualification.go": "81f91cfcf25909f1d457ce34905d26a94f480aa1f851c3d61bb6564c5c0757fe",
+    "internal/jev/qualification_test.go": "38cc0a20011e6bd28734ec9669d185464c59adc6b80f906f529076a005b46301",
+    "internal/jev/trace.go": "d7a79203cf7dadece2f7159e43516cb196457094931bfe506dac4f891908a72b",
+    "internal/jev/trace_test.go": "0958bef5598a51ca573fd93f5ecc3f57ec1e6cf3a97acb36f435747848e5341b",
+    "samples/bluememe.txt": "613afa1eb7dde503a70d2f187e62585c0e82adaa7c318dbe075a85ac76d5fbfb",
+    "samples/core.txt": "8d5e87005a3f9acbe294956f9807c802f8083224b57bed47fa32b9b507aff2cb",
+    "samples/nitori.txt": "817dc047c5d33129a9f09df8a25de4da2ada6fac8d87e5d755f7bf12f8fff758",
+    "samples/pia-tech-lab.txt": "6f0a60acf485293a41f7382c9437bf8c09790e87f6444ca30d5103d8cb9a22a2",
+    "samples/proptech-plus.txt": "97068536167d4b21fc9d4f53bc92deedaee922cc98a08c7275e774049829fd19",
+    "samples/teamlab.txt": "953411bc88219b6e6d3246e196503653e8d0139bb4739f07f8d7b9ba4a9935b9"
+  },
+  "runs": [
+    {
+      "sample": "bluememe",
+      "attempts": 1,
+      "exitCode": 0,
+      "result": "bluememe.json",
+      "resultSHA256": "b890c370e00aba26469bcd300dcadd187d9ca29b67dac07e5a92595f954499b9",
+      "input": "samples/bluememe.txt"
+    },
+    {
+      "sample": "proptech-plus",
+      "attempts": 1,
+      "exitCode": 0,
+      "result": "proptech-plus.json",
+      "resultSHA256": "b6604069e785954d71448a8b946b011b40457925bbaf47ce723b580ea723de15",
+      "input": "samples/proptech-plus.txt"
+    },
+    {
+      "sample": "pia-tech-lab",
+      "attempts": 1,
+      "exitCode": 0,
+      "result": "pia-tech-lab.json",
+      "resultSHA256": "9d897199f9fb6d3953032f3a2727e976cc3adce723a3e5b79c42d991907c4a2b",
+      "input": "samples/pia-tech-lab.txt"
+    },
+    {
+      "sample": "core",
+      "attempts": 1,
+      "exitCode": 0,
+      "result": "core.json",
+      "resultSHA256": "d7a42b0797a2819bb89e3308bc9919397e11de51bd19c69484fed88536046df0",
+      "input": "samples/core.txt"
+    },
+    {
+      "sample": "teamlab",
+      "attempts": 1,
+      "exitCode": 0,
+      "result": "teamlab.json",
+      "resultSHA256": "3e8118ea2f57ee0a5a639802e099ddab8eb96ae46aff8ad2bef0348928f1abc2",
+      "input": "samples/teamlab.txt"
+    },
+    {
+      "sample": "nitori",
+      "attempts": 1,
+      "exitCode": 0,
+      "result": "nitori.json",
+      "resultSHA256": "85a3eb375b90ec016d33b9f39e71e03515f84ba36d2434d535b43f924a86cf9c",
+      "input": "samples/nitori.txt"
+    }
+  ]
+}

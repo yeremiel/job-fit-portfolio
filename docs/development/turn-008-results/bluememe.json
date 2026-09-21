@@ -1,0 +1,296 @@
+{
+  "decisionTrace": {
+    "source": "jev-post-hoc-attribution; not a causal record of the original decision",
+    "supporting": [
+      {
+        "requirementId": "L005",
+        "requirement": "Required: Practical experience developing systems.",
+        "match": "Strong",
+        "sourceType": "required"
+      },
+      {
+        "requirementId": "L008",
+        "requirement": "Responsibility: Support project execution.",
+        "match": "Strong",
+        "sourceType": "responsibility"
+      }
+    ],
+    "limiting": [
+      {
+        "requirementId": "L002",
+        "requirement": "Position: Low-code engineer",
+        "match": "Weak",
+        "sourceType": "context"
+      }
+    ],
+    "nonDecisive": [
+      {
+        "requirementId": "L006",
+        "requirement": "Responsibility: Interview customers about their needs and design systems.",
+        "match": "Partial",
+        "sourceType": "responsibility"
+      },
+      {
+        "requirementId": "L007",
+        "requirement": "Preferred: Web development experience and upstream customer coordination experience.",
+        "match": "Partial",
+        "sourceType": "preferred"
+      },
+      {
+        "requirementId": "L009",
+        "requirement": "Responsibility: Develop using OutSystems; prior OutSystems experience is not required and training is provided.",
+        "match": "Partial",
+        "sourceType": "responsibility"
+      },
+      {
+        "requirementId": "L010",
+        "requirement": "Responsibility: Handle testing and releases.",
+        "match": "Unknown",
+        "sourceType": "responsibility"
+      }
+    ]
+  },
+  "overallMatch": "Partial",
+  "overallReasoning": "Selected overall criterion: Substantial related/transferable capabilities exist but some important scope/depth/technology/domain/operational gaps remain. Assessments: L002=Weak (context); L005=Strong (required); L006=Partial (responsibility); L007=Partial (preferred); L008=Strong (responsibility); L009=Partial (responsibility); L010=Unknown (responsibility)",
+  "requirements": [
+    {
+      "id": "L002",
+      "requirement": "Position: Low-code engineer",
+      "category": "context",
+      "match": "Weak",
+      "supportingEvidence": [
+        {
+          "id": "E1",
+          "text": "Approximately 16 years of software/backend development, centered on professional Java, Spring and Spring Boot. REST API design and implementation. Version-specific durations are not documented.",
+          "relation": "transferable"
+        },
+        {
+          "id": "E2",
+          "text": "RDB design and SQL/database processing improvements. DB2, Oracle, MySQL and MariaDB experience. Business systems with complex business logic.",
+          "relation": "transferable"
+        },
+        {
+          "id": "E3",
+          "text": "Requirements analysis, basic and detailed design, API/database design, legacy analysis and improvement, common module design and code review. Development across backend, frontend and database.",
+          "relation": "transferable"
+        },
+        {
+          "id": "E4",
+          "text": "Tech Lead, Development Lead, PM and PL experience. Team building, OJT, development standards, code review and technical support. Experience in organizations/teams up to approximately 12 people. Customer requirements and specification coordination. The profile does not specify frontend-specialist leadership.",
+          "relation": "transferable"
+        },
+        {
+          "id": "E5",
+          "text": "Experience with TypeScript, Node.js, NestJS, Angular, Redis, Netty, C++ and TCP/IP. Individual durations and depth are not documented.",
+          "relation": "transferable"
+        },
+        {
+          "id": "E6",
+          "text": "Domain experience in ERP, accounting, personal-information database encryption, ship monitoring, logistics/control systems and public-sector web/business systems.",
+          "relation": "transferable"
+        }
+      ],
+      "missingEvidence": [
+        "Not established by the profile: core role experience for: Position: Low-code engineer"
+      ],
+      "unknowns": [
+        "Whether the candidate has core role experience beyond the documented evidence."
+      ],
+      "reasoning": "Selected rationale: Adjacent evidence exists but does not establish the core role experience; keyword overlap is insufficient."
+    },
+    {
+      "id": "L005",
+      "requirement": "Required: Practical experience developing systems.",
+      "category": "required",
+      "match": "Strong",
+      "supportingEvidence": [
+        {
+          "id": "E1",
+          "text": "Approximately 16 years of software/backend development, centered on professional Java, Spring and Spring Boot. REST API design and implementation. Version-specific durations are not documented.",
+          "relation": "direct"
+        },
+        {
+          "id": "E2",
+          "text": "RDB design and SQL/database processing improvements. DB2, Oracle, MySQL and MariaDB experience. Business systems with complex business logic.",
+          "relation": "direct"
+        },
+        {
+          "id": "E3",
+          "text": "Requirements analysis, basic and detailed design, API/database design, legacy analysis and improvement, common module design and code review. Development across backend, frontend and database.",
+          "relation": "direct"
+        },
+        {
+          "id": "E4",
+          "text": "Tech Lead, Development Lead, PM and PL experience. Team building, OJT, development standards, code review and technical support. Experience in organizations/teams up to approximately 12 people. Customer requirements and specification coordination. The profile does not specify frontend-specialist leadership.",
+          "relation": "limited"
+        },
+        {
+          "id": "E5",
+          "text": "Experience with TypeScript, Node.js, NestJS, Angular, Redis, Netty, C++ and TCP/IP. Individual durations and depth are not documented.",
+          "relation": "direct"
+        }
+      ],
+      "missingEvidence": [],
+      "unknowns": [],
+      "reasoning": "Selected rationale: Direct documented evidence supports the requirement with no material role/context gap."
+    },
+    {
+      "id": "L006",
+      "requirement": "Responsibility: Interview customers about their needs and design systems.",
+      "category": "responsibility",
+      "match": "Partial",
+      "supportingEvidence": [
+        {
+          "id": "E3",
+          "text": "Requirements analysis, basic and detailed design, API/database design, legacy analysis and improvement, common module design and code review. Development across backend, frontend and database.",
+          "relation": "limited"
+        },
+        {
+          "id": "E4",
+          "text": "Tech Lead, Development Lead, PM and PL experience. Team building, OJT, development standards, code review and technical support. Experience in organizations/teams up to approximately 12 people. Customer requirements and specification coordination. The profile does not specify frontend-specialist leadership.",
+          "relation": "limited"
+        }
+      ],
+      "missingEvidence": [
+        "Not established by the profile: full scope for: Responsibility: Interview customers about their needs and design systems."
+      ],
+      "unknowns": [
+        "Whether the candidate has full scope beyond the documented evidence."
+      ],
+      "reasoning": "Selected rationale: Related evidence is sufficient but the full scope is not documented."
+    },
+    {
+      "id": "L007",
+      "requirement": "Preferred: Web development experience and upstream customer coordination experience.",
+      "category": "preferred",
+      "match": "Partial",
+      "supportingEvidence": [
+        {
+          "id": "E3",
+          "text": "Requirements analysis, basic and detailed design, API/database design, legacy analysis and improvement, common module design and code review. Development across backend, frontend and database.",
+          "relation": "limited"
+        },
+        {
+          "id": "E4",
+          "text": "Tech Lead, Development Lead, PM and PL experience. Team building, OJT, development standards, code review and technical support. Experience in organizations/teams up to approximately 12 people. Customer requirements and specification coordination. The profile does not specify frontend-specialist leadership.",
+          "relation": "limited"
+        },
+        {
+          "id": "E5",
+          "text": "Experience with TypeScript, Node.js, NestJS, Angular, Redis, Netty, C++ and TCP/IP. Individual durations and depth are not documented.",
+          "relation": "limited"
+        },
+        {
+          "id": "E6",
+          "text": "Domain experience in ERP, accounting, personal-information database encryption, ship monitoring, logistics/control systems and public-sector web/business systems.",
+          "relation": "limited"
+        }
+      ],
+      "missingEvidence": [
+        "Not established by the profile: full scope for: Preferred: Web development experience and upstream customer coordination experience."
+      ],
+      "unknowns": [
+        "Whether the candidate has full scope beyond the documented evidence."
+      ],
+      "reasoning": "Selected rationale: Related evidence is sufficient but the full scope is not documented."
+    },
+    {
+      "id": "L008",
+      "requirement": "Responsibility: Support project execution.",
+      "category": "responsibility",
+      "match": "Strong",
+      "supportingEvidence": [
+        {
+          "id": "E1",
+          "text": "Approximately 16 years of software/backend development, centered on professional Java, Spring and Spring Boot. REST API design and implementation. Version-specific durations are not documented.",
+          "relation": "limited"
+        },
+        {
+          "id": "E2",
+          "text": "RDB design and SQL/database processing improvements. DB2, Oracle, MySQL and MariaDB experience. Business systems with complex business logic.",
+          "relation": "limited"
+        },
+        {
+          "id": "E3",
+          "text": "Requirements analysis, basic and detailed design, API/database design, legacy analysis and improvement, common module design and code review. Development across backend, frontend and database.",
+          "relation": "limited"
+        },
+        {
+          "id": "E4",
+          "text": "Tech Lead, Development Lead, PM and PL experience. Team building, OJT, development standards, code review and technical support. Experience in organizations/teams up to approximately 12 people. Customer requirements and specification coordination. The profile does not specify frontend-specialist leadership.",
+          "relation": "direct"
+        }
+      ],
+      "missingEvidence": [],
+      "unknowns": [],
+      "reasoning": "Selected rationale: Direct documented evidence supports the requirement with no material role/context gap."
+    },
+    {
+      "id": "L009",
+      "requirement": "Responsibility: Develop using OutSystems; prior OutSystems experience is not required and training is provided.",
+      "category": "responsibility",
+      "match": "Partial",
+      "supportingEvidence": [
+        {
+          "id": "E1",
+          "text": "Approximately 16 years of software/backend development, centered on professional Java, Spring and Spring Boot. REST API design and implementation. Version-specific durations are not documented.",
+          "relation": "transferable"
+        },
+        {
+          "id": "E2",
+          "text": "RDB design and SQL/database processing improvements. DB2, Oracle, MySQL and MariaDB experience. Business systems with complex business logic.",
+          "relation": "transferable"
+        },
+        {
+          "id": "E3",
+          "text": "Requirements analysis, basic and detailed design, API/database design, legacy analysis and improvement, common module design and code review. Development across backend, frontend and database.",
+          "relation": "transferable"
+        },
+        {
+          "id": "E5",
+          "text": "Experience with TypeScript, Node.js, NestJS, Angular, Redis, Netty, C++ and TCP/IP. Individual durations and depth are not documented.",
+          "relation": "transferable"
+        }
+      ],
+      "missingEvidence": [
+        "Not established by the profile: exact technology experience for: Responsibility: Develop using OutSystems; prior OutSystems experience is not required and training is provided."
+      ],
+      "unknowns": [
+        "Whether the candidate has exact technology experience beyond the documented evidence."
+      ],
+      "reasoning": "Selected rationale: Transferable engineering experience exists but the exact technology experience is not established."
+    },
+    {
+      "id": "L010",
+      "requirement": "Responsibility: Handle testing and releases.",
+      "category": "responsibility",
+      "match": "Unknown",
+      "supportingEvidence": [],
+      "missingEvidence": [
+        "Not established by the profile: sufficient relevant evidence for: Responsibility: Handle testing and releases."
+      ],
+      "unknowns": [
+        "Whether the candidate has sufficient relevant evidence beyond the documented evidence."
+      ],
+      "reasoning": "No supporting evidence was linked by the evaluator. The application leaves the match Unknown; this does not mean no experience."
+    }
+  ],
+  "summary": {
+    "strong": [
+      "L005",
+      "L008"
+    ],
+    "partial": [
+      "L006",
+      "L007",
+      "L009"
+    ],
+    "weak": [
+      "L002"
+    ],
+    "unknown": [
+      "L010"
+    ]
+  },
+  "explanationSource": "application-rendered rationale from provider choices or absence of linked evidence; evidence copied from profile"
+}

@@ -1,0 +1,342 @@
+{
+  "decisionTrace": {
+    "source": "jev-post-hoc-attribution; not a causal record of the original decision",
+    "supporting": [
+      {
+        "requirementId": "L002",
+        "requirement": "Position: Server-side engineer",
+        "match": "Strong",
+        "sourceType": "context"
+      },
+      {
+        "requirementId": "L006",
+        "requirement": "Required: Web service design and development experience.",
+        "match": "Strong",
+        "sourceType": "required"
+      }
+    ],
+    "limiting": [
+      {
+        "requirementId": "L005",
+        "requirement": "Required: At least three years of AWS infrastructure construction and operations experience.",
+        "match": "Weak",
+        "sourceType": "required"
+      },
+      {
+        "requirementId": "L007",
+        "requirement": "Required: Knowledge of infrastructure, middleware, communications and browsers.",
+        "match": "Partial",
+        "sourceType": "required"
+      },
+      {
+        "requirementId": "L010",
+        "requirement": "Responsibility: Handle performance and incidents from the network through middleware layers.",
+        "match": "Partial",
+        "sourceType": "responsibility"
+      }
+    ],
+    "nonDecisive": [
+      {
+        "requirementId": "L008",
+        "requirement": "Responsibility: Establish monitoring and backup operations.",
+        "match": "Unknown",
+        "sourceType": "responsibility"
+      },
+      {
+        "requirementId": "L009",
+        "requirement": "Responsibility: Select and apply security patches.",
+        "match": "Unknown",
+        "sourceType": "responsibility"
+      },
+      {
+        "requirementId": "L011",
+        "requirement": "Preferred: Application development experience with Java or similar languages.",
+        "match": "Strong",
+        "sourceType": "preferred"
+      },
+      {
+        "requirementId": "L012",
+        "requirement": "Preferred: AWS certification.",
+        "match": "Unknown",
+        "sourceType": "preferred"
+      },
+      {
+        "requirementId": "L013",
+        "requirement": "Preferred: Project management experience for infrastructure construction.",
+        "match": "Partial",
+        "sourceType": "preferred"
+      }
+    ]
+  },
+  "overallMatch": "Weak",
+  "overallReasoning": "Selected overall criterion: Related evidence exists but core role or major required-level gaps dominate; overlapping skills cannot compensate. Assessments: L002=Strong (context); L005=Weak (required); L006=Strong (required); L007=Partial (required); L008=Unknown (responsibility); L009=Unknown (responsibility); L010=Partial (responsibility); L011=Strong (preferred); L012=Unknown (preferred); L013=Partial (preferred)",
+  "requirements": [
+    {
+      "id": "L002",
+      "requirement": "Position: Server-side engineer",
+      "category": "context",
+      "match": "Strong",
+      "supportingEvidence": [
+        {
+          "id": "E1",
+          "text": "Approximately 16 years of software/backend development, centered on professional Java, Spring and Spring Boot. REST API design and implementation. Version-specific durations are not documented.",
+          "relation": "direct"
+        },
+        {
+          "id": "E2",
+          "text": "RDB design and SQL/database processing improvements. DB2, Oracle, MySQL and MariaDB experience. Business systems with complex business logic.",
+          "relation": "limited"
+        },
+        {
+          "id": "E3",
+          "text": "Requirements analysis, basic and detailed design, API/database design, legacy analysis and improvement, common module design and code review. Development across backend, frontend and database.",
+          "relation": "limited"
+        },
+        {
+          "id": "E5",
+          "text": "Experience with TypeScript, Node.js, NestJS, Angular, Redis, Netty, C++ and TCP/IP. Individual durations and depth are not documented.",
+          "relation": "limited"
+        },
+        {
+          "id": "E7",
+          "text": "Basic AWS experience. Large-scale cloud-native production architecture and operations experience is not clearly documented.",
+          "relation": "limited"
+        }
+      ],
+      "missingEvidence": [],
+      "unknowns": [],
+      "reasoning": "Selected rationale: Direct documented evidence supports the requirement with no material role/context gap."
+    },
+    {
+      "id": "L005",
+      "requirement": "Required: At least three years of AWS infrastructure construction and operations experience.",
+      "category": "required",
+      "match": "Weak",
+      "supportingEvidence": [
+        {
+          "id": "E7",
+          "text": "Basic AWS experience. Large-scale cloud-native production architecture and operations experience is not clearly documented.",
+          "relation": "limited"
+        }
+      ],
+      "missingEvidence": [
+        "Not established by the profile: evidence at the required level for: Required: At least three years of AWS infrastructure construction and operations experience."
+      ],
+      "unknowns": [
+        "Whether the candidate has evidence at the required level beyond the documented evidence."
+      ],
+      "reasoning": "Selected rationale: Some related evidence exists but it falls substantially short of the requirement's level."
+    },
+    {
+      "id": "L006",
+      "requirement": "Required: Web service design and development experience.",
+      "category": "required",
+      "match": "Strong",
+      "supportingEvidence": [
+        {
+          "id": "E1",
+          "text": "Approximately 16 years of software/backend development, centered on professional Java, Spring and Spring Boot. REST API design and implementation. Version-specific durations are not documented.",
+          "relation": "direct"
+        },
+        {
+          "id": "E3",
+          "text": "Requirements analysis, basic and detailed design, API/database design, legacy analysis and improvement, common module design and code review. Development across backend, frontend and database.",
+          "relation": "direct"
+        },
+        {
+          "id": "E5",
+          "text": "Experience with TypeScript, Node.js, NestJS, Angular, Redis, Netty, C++ and TCP/IP. Individual durations and depth are not documented.",
+          "relation": "limited"
+        }
+      ],
+      "missingEvidence": [],
+      "unknowns": [],
+      "reasoning": "Selected rationale: Direct documented evidence supports the requirement with no material role/context gap."
+    },
+    {
+      "id": "L007",
+      "requirement": "Required: Knowledge of infrastructure, middleware, communications and browsers.",
+      "category": "required",
+      "match": "Partial",
+      "supportingEvidence": [
+        {
+          "id": "E1",
+          "text": "Approximately 16 years of software/backend development, centered on professional Java, Spring and Spring Boot. REST API design and implementation. Version-specific durations are not documented.",
+          "relation": "limited"
+        },
+        {
+          "id": "E3",
+          "text": "Requirements analysis, basic and detailed design, API/database design, legacy analysis and improvement, common module design and code review. Development across backend, frontend and database.",
+          "relation": "limited"
+        },
+        {
+          "id": "E5",
+          "text": "Experience with TypeScript, Node.js, NestJS, Angular, Redis, Netty, C++ and TCP/IP. Individual durations and depth are not documented.",
+          "relation": "limited"
+        },
+        {
+          "id": "E7",
+          "text": "Basic AWS experience. Large-scale cloud-native production architecture and operations experience is not clearly documented.",
+          "relation": "limited"
+        }
+      ],
+      "missingEvidence": [
+        "Not established by the profile: full scope for: Required: Knowledge of infrastructure, middleware, communications and browsers."
+      ],
+      "unknowns": [
+        "Whether the candidate has full scope beyond the documented evidence."
+      ],
+      "reasoning": "Selected rationale: Related evidence is sufficient but the full scope is not documented."
+    },
+    {
+      "id": "L008",
+      "requirement": "Responsibility: Establish monitoring and backup operations.",
+      "category": "responsibility",
+      "match": "Unknown",
+      "supportingEvidence": [],
+      "missingEvidence": [
+        "Not established by the profile: sufficient relevant evidence for: Responsibility: Establish monitoring and backup operations."
+      ],
+      "unknowns": [
+        "Whether the candidate has sufficient relevant evidence beyond the documented evidence."
+      ],
+      "reasoning": "No supporting evidence was linked by the evaluator. The application leaves the match Unknown; this does not mean no experience."
+    },
+    {
+      "id": "L009",
+      "requirement": "Responsibility: Select and apply security patches.",
+      "category": "responsibility",
+      "match": "Unknown",
+      "supportingEvidence": [],
+      "missingEvidence": [
+        "Not established by the profile: sufficient relevant evidence for: Responsibility: Select and apply security patches."
+      ],
+      "unknowns": [
+        "Whether the candidate has sufficient relevant evidence beyond the documented evidence."
+      ],
+      "reasoning": "No supporting evidence was linked by the evaluator. The application leaves the match Unknown; this does not mean no experience."
+    },
+    {
+      "id": "L010",
+      "requirement": "Responsibility: Handle performance and incidents from the network through middleware layers.",
+      "category": "responsibility",
+      "match": "Partial",
+      "supportingEvidence": [
+        {
+          "id": "E1",
+          "text": "Approximately 16 years of software/backend development, centered on professional Java, Spring and Spring Boot. REST API design and implementation. Version-specific durations are not documented.",
+          "relation": "limited"
+        },
+        {
+          "id": "E2",
+          "text": "RDB design and SQL/database processing improvements. DB2, Oracle, MySQL and MariaDB experience. Business systems with complex business logic.",
+          "relation": "limited"
+        },
+        {
+          "id": "E3",
+          "text": "Requirements analysis, basic and detailed design, API/database design, legacy analysis and improvement, common module design and code review. Development across backend, frontend and database.",
+          "relation": "limited"
+        },
+        {
+          "id": "E5",
+          "text": "Experience with TypeScript, Node.js, NestJS, Angular, Redis, Netty, C++ and TCP/IP. Individual durations and depth are not documented.",
+          "relation": "limited"
+        }
+      ],
+      "missingEvidence": [
+        "Not established by the profile: operational context for: Responsibility: Handle performance and incidents from the network through middleware layers."
+      ],
+      "unknowns": [
+        "Whether the candidate has operational context beyond the documented evidence."
+      ],
+      "reasoning": "Selected rationale: Related evidence exists but the required operational context is not established."
+    },
+    {
+      "id": "L011",
+      "requirement": "Preferred: Application development experience with Java or similar languages.",
+      "category": "preferred",
+      "match": "Strong",
+      "supportingEvidence": [
+        {
+          "id": "E1",
+          "text": "Approximately 16 years of software/backend development, centered on professional Java, Spring and Spring Boot. REST API design and implementation. Version-specific durations are not documented.",
+          "relation": "direct"
+        },
+        {
+          "id": "E3",
+          "text": "Requirements analysis, basic and detailed design, API/database design, legacy analysis and improvement, common module design and code review. Development across backend, frontend and database.",
+          "relation": "limited"
+        },
+        {
+          "id": "E5",
+          "text": "Experience with TypeScript, Node.js, NestJS, Angular, Redis, Netty, C++ and TCP/IP. Individual durations and depth are not documented.",
+          "relation": "limited"
+        }
+      ],
+      "missingEvidence": [],
+      "unknowns": [],
+      "reasoning": "Selected rationale: Direct documented evidence supports the requirement with no material role/context gap."
+    },
+    {
+      "id": "L012",
+      "requirement": "Preferred: AWS certification.",
+      "category": "preferred",
+      "match": "Unknown",
+      "supportingEvidence": [
+        {
+          "id": "E7",
+          "text": "Basic AWS experience. Large-scale cloud-native production architecture and operations experience is not clearly documented.",
+          "relation": "limited"
+        }
+      ],
+      "missingEvidence": [
+        "Not established by the profile: sufficient relevant evidence for: Preferred: AWS certification."
+      ],
+      "unknowns": [
+        "Whether the candidate has sufficient relevant evidence beyond the documented evidence."
+      ],
+      "reasoning": "Selected rationale: The profile contains insufficient relevant evidence to judge this requirement; this does not mean no experience."
+    },
+    {
+      "id": "L013",
+      "requirement": "Preferred: Project management experience for infrastructure construction.",
+      "category": "preferred",
+      "match": "Partial",
+      "supportingEvidence": [
+        {
+          "id": "E4",
+          "text": "Tech Lead, Development Lead, PM and PL experience. Team building, OJT, development standards, code review and technical support. Experience in organizations/teams up to approximately 12 people. Customer requirements and specification coordination. The profile does not specify frontend-specialist leadership.",
+          "relation": "limited"
+        }
+      ],
+      "missingEvidence": [
+        "Not established by the profile: full scope for: Preferred: Project management experience for infrastructure construction."
+      ],
+      "unknowns": [
+        "Whether the candidate has full scope beyond the documented evidence."
+      ],
+      "reasoning": "Selected rationale: Related evidence is sufficient but the full scope is not documented."
+    }
+  ],
+  "summary": {
+    "strong": [
+      "L002",
+      "L006",
+      "L011"
+    ],
+    "partial": [
+      "L007",
+      "L010",
+      "L013"
+    ],
+    "weak": [
+      "L005"
+    ],
+    "unknown": [
+      "L008",
+      "L009",
+      "L012"
+    ]
+  },
+  "explanationSource": "application-rendered rationale from provider choices or absence of linked evidence; evidence copied from profile"
+}

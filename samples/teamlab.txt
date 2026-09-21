@@ -1,0 +1,12 @@
+Company: teamLab
+Position: Web application and smartphone application engineer
+Source: https://open.talentio.com/r/1/c/teamlab/pages/109375
+Reviewed date: 2026-09-21 (source review in Turn 002; paraphrased from the recorded JD summary, not the full JD)
+Responsibility: Define requirements and design based on customer needs.
+Responsibility: Establish overall development direction and architecture.
+Responsibility: Improve processing efficiency and generalize reusable functionality.
+Responsibility: Perform performance tuning.
+Responsibility: Build CI/CD pipelines.
+Technology environment: Java, Spring and SQL for backend development.
+Technology environment: Frontend and mobile technologies include React, Vue and Swift; the technology listing does not establish that all are mandatory together.
+Required: Business-level Japanese language ability.

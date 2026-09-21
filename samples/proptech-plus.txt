@@ -1,0 +1,18 @@
+Company: Prop Tech plus
+Position: Server-side engineer
+Source: https://proptech.plus/recruit/occupations/20220203-568/
+Reviewed date: 2026-09-21 (source review in Turn 002; paraphrased sample, not the full JD)
+Business context: In-house package development for real-estate fund management companies.
+Required: At least one year of development experience with Java 8 or later.
+Responsibility: Design and develop backend APIs.
+Responsibility: Operate backend APIs.
+Responsibility: Enhance the package and fix defects.
+Responsibility: Set up and customize the package for new customers.
+Technology environment: Java and Spring Boot.
+Technology environment: Azure App Service on Linux/Docker and Azure SQL Database.
+Technology environment: Git and Azure DevOps for CI/CD.
+Preferred: Hands-on Azure operation/administration experience.
+Preferred: Accounting knowledge comparable to bookkeeping level 3.
+Preferred: Program with the customer's usability in mind.
+Preferred: Willingness to understand the customer's business and work proactively.
+Optional adjacent web development: Angular, Angular Material and TypeScript.

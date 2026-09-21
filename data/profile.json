@@ -1,0 +1,11 @@
+{
+  "evidence": [
+    {"id": "E1", "text": "Approximately 16 years of software/backend development, centered on professional Java, Spring and Spring Boot. REST API design and implementation. Version-specific durations are not documented."},
+    {"id": "E2", "text": "RDB design and SQL/database processing improvements. DB2, Oracle, MySQL and MariaDB experience. Business systems with complex business logic."},
+    {"id": "E3", "text": "Requirements analysis, basic and detailed design, API/database design, legacy analysis and improvement, common module design and code review. Development across backend, frontend and database."},
+    {"id": "E4", "text": "Tech Lead, Development Lead, PM and PL experience. Team building, OJT, development standards, code review and technical support. Experience in organizations/teams up to approximately 12 people. Customer requirements and specification coordination. The profile does not specify frontend-specialist leadership."},
+    {"id": "E5", "text": "Experience with TypeScript, Node.js, NestJS, Angular, Redis, Netty, C++ and TCP/IP. Individual durations and depth are not documented."},
+    {"id": "E6", "text": "Domain experience in ERP, accounting, personal-information database encryption, ship monitoring, logistics/control systems and public-sector web/business systems."},
+    {"id": "E7", "text": "Basic AWS experience. Large-scale cloud-native production architecture and operations experience is not clearly documented."}
+  ]
+}
