@@ -4,6 +4,8 @@ Server-side canonical candidate profile과 Job Description을 비교하여 **Jev
 
 개인적으로 반복하던 JD 검토를 재사용 가능한 CLI와 REST API로 만든 portfolio MVP다. 제품 기능은 동결했으며, **Match는 채용 확률이나 지원 추천이 아니다.**
 
+**AI 활용 포트폴리오:** [프로젝트 요약](docs/portfolio.md)에서 본인과 AI의 역할, 두 오류의 수정 과정, 구현·검증 근거를 확인할 수 있습니다.
+
 ## Why
 
 Jev라는 structured decision tool을 발견한 뒤, 여러 회사의 JD를 볼 때마다 같은 경력을 반복 비교하는 작업에 적용해보기 위해 시작했다. 작은 개인 도구가 AI-assisted development portfolio로 발전했다.
